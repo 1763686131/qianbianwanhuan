@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3965077 */
+  src: url('@/static/fonts/iconfont.woff2?t=1679324731727') format('woff2'),
+       url('@/static/fonts/iconfont.woff?t=1679324731727') format('woff'),
+       url('@/static/fonts/iconfont.ttf?t=1679324731727') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+  content: "\e7ae";
+}
+
+.icon-message:before {
+  content: "\e78a";
+}
+
+.icon-sync:before {
+  content: "\e786";
+}
+
+.icon-eye:before {
+  content: "\e78f";
+}
+
+.icon-home:before {
+  content: "\e7c6";
+}
+
+.icon-like:before {
+  content: "\e7c8";
+}
+
+.icon-unlike:before {
+  content: "\e7c9";
+}
+
+.icon-cloud-upload:before {
+  content: "\e7d9";
+}
+
+.icon-cloud-download:before {
+  content: "\e7da";
+}
+
+.icon-heart:before {
+  content: "\e7df";
+}
+
+.icon-star:before {
+  content: "\e7e0";
+}
+
+.icon-crown:before {
+  content: "\e842";
+}
+
+.icon-message-fill:before {
+  content: "\e84a";
+}
+
+.icon-eye-fill:before {
+  content: "\e869";
+}
+
+.icon-like-fill:before {
+  content: "\e86a";
+}
+
+.icon-unlike-fill:before {
+  content: "\e86b";
+}
+
+.icon-star-fill:before {
+  content: "\e86c";
+}
+
+.icon-edit-fill:before {
+  content: "\e86d";
+}
+
+.icon-comment:before {
+  content: "\e8e8";
+}
+

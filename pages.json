@@ -1,0 +1,232 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/forum/forum",
+			"style": {
+				"navigationBarTitleText": "社圈"
+			}
+		},
+		{
+			"path": "pages/list/imglist/imglist",
+			"style": {
+				"navigationBarTitleText": "二次元"
+			}
+		},
+		{
+			"path": "pages/list/imglistheisi/imglistheisi",
+			"style": {
+				"navigationBarTitleText": "黑丝"
+			}
+		},
+			{
+			"path": "pages/self/imglod/imglod",
+			"style": {
+				"navigationBarTitleText": "图片生成记录"
+			}
+		},
+		{
+			"path": "pages/list/belle/belle",
+			"style": {
+				"navigationBarTitleText": "美女"
+			}
+		},
+		{
+			"path": "pages/self/self",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/edit/edit",
+			"style": {
+				"navigationBarTitleText": "创造文稿",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+			"style": {
+				"navigationBarTitleText": "注销账号"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/login/login-smscode",
+			"style": {
+				"navigationBarTitleText": "手机验证码登录"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/register/register-by-email",
+			"style": {
+				"navigationBarTitleText": "邮箱验证码注册"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+			"style": {
+				"navigationBarTitleText": "通过邮箱重置密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/common/webview/webview",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/register/register-admin",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "注册管理员账号"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "设置密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "实名认证"
+			}
+		}, {
+			"path": "pages/qianhuan-news-articles/list",
+			"style": {
+				"navigationBarTitleText": "文章列表"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "文章详情"
+			}
+		}, {
+			"path": "uni_modules/uni-feedback/pages/opendb-feedback/opendb-feedback",
+			"style": {
+				"navigationBarTitleText": "反馈新增"
+			}
+		}, {
+			"path": "uni_modules/uni-feedback/pages/opendb-feedback/edit",
+			"style": {
+				"navigationBarTitleText": "反馈编辑"
+			}
+		}, {
+			"path": "uni_modules/uni-feedback/pages/opendb-feedback/list",
+			"style": {
+				"navigationBarTitleText": "反馈列表"
+			}
+		}, {
+			"path": "uni_modules/uni-feedback/pages/opendb-feedback/detail",
+			"style": {
+				"navigationBarTitleText": "反馈详情"
+			}
+		}
+	    ,{
+            "path" : "pages/userTexthistory/userTexthistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "删除历史记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userTexthistory/usertextcheck",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户审核",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "千幻工具",
+		"navigationBarBackgroundColor": "#7a50bb",
+		"backgroundColor": "#7a50bb",
+		"app-plus": {
+			"softinputMode": "adjustResize"
+		}
+	},
+	"uniIdRouter": {
+		"loginPage": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+		"needLogin": [
+			"pages/edit/edit",
+			"pages/qianhuan-news-articles/list",
+			"uni_modules/uni-id-pages/pages/userinfo/userinfo",
+			"pages/userTexthistory/usertextcheck"
+		],
+		"resToLogin": true
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#7a50bb",
+		"list": [{
+				"iconPath": "static/iconfont/home(1).png",
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"selectedIconPath": "static/iconfont/home-fill(1).png"
+			},
+			{
+				"iconPath": "static/iconfont/message.png",
+				"selectedIconPath": "static/iconfont/message-fill(1).png",
+				"pagePath": "pages/forum/forum",
+				"text": "社圈"
+			},
+			{
+				"iconPath": "static/iconfont/user(1).png",
+				"selectedIconPath": "static/iconfont/user-h.png",
+				"pagePath": "pages/self/self",
+				"text": "个人中心"
+			}
+		]
+	}
+}
